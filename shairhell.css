@@ -1,0 +1,1217 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+ ::-webkit-scrollbar-track{
+     border: 1px solid black;
+     background-color: rgba(0,0,0,.5);
+}
+ ::-webkit-scrollbar{
+     width: 12px;
+     cursor: url(https://i.imgur.com/xZ0AKJk.png), auto !important;
+}
+ ::-webkit-scrollbar-thumb{
+     background-color: red;
+     border: 1px solid black;
+     box-shadow: inset 0 0 6px 3px black;
+}
+ ::-webkit-scrollbar-thumb:hover{
+     background-color: rgba(255, 0, 0, 0.8);
+}
+ #chatscrollbar, #myfrscrollbar, #myenscrollbar{
+     border: 1px solid black;
+     box-shadow: inset 0 0 6px 3px black;
+     background-image: none;
+     background-color: rgba(255, 0, 0, 0.8) !important;
+     //cursor: url(http://aldous.margonem.pl/img/gui/cursor/1.png), auto !important;
+}
+ .checkbox-gd{
+     height: 18px;
+     background: url(https://i.imgur.com/YfPtseg.png) no-repeat top left;
+     padding: 4px 30px 0;
+     margin-bottom: 4px;
+     background-position-y: 0px;
+}
+ .checkbox-gd.active{
+     background-position-y: -22px;
+}
+#tip.t_shair b{
+    display: inline;
+}
+#skills_title .resetSkillPoints{
+     top: 9px;
+}
+#corners img.border-d, #corners img.border-r, #corners img.border-l, #corners img.border-u {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+#corners img.border-d, #corners img.border-u {
+    width: 799px;
+    height: 7px;
+    padding-left: 799px;
+}
+#corners img.border-r, #corners img.border-l {
+    width: 6px;
+    height: 537px;
+    padding-left: 6px;
+}
+#corners img.border-u {
+    background-image: url(https://i.imgur.com/D3PPg9v.png);
+}
+#corners img.border-d {
+    background-image: url(https://i.imgur.com/7BXnGNU.png);
+}
+#corners img.border-l {
+    background-image: url(https://i.imgur.com/oKqBqq3.png);
+}
+#corners img.border-r {
+    background-image: url(https://i.imgur.com/DcsIhAm.png);
+}
+#party img{
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 7px;
+    padding-left: 150px;
+    background-image: url(https://i.imgur.com/zpIjJYn.png);
+}
+#slotsForItems {
+    margin-left: 3px;
+    position: absolute;
+    width: 45px;
+    margin-top: 10px;
+}
+.otchlannew{
+    display:none;
+    position:absolute;
+    left: 138px;
+    top: 475px;
+    width: 68px;
+    height: 20px;
+    background:url(https://i.imgur.com/ySFXKhr.png);
+}
+.shair-item-slot {
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    margin: 7px;
+    position: relative;
+    vertical-align: top;
+    background:url(https://i.imgur.com/8azo24J.png);
+    transition: box-shadow 250ms;
+    border-radius: 0 8px 0 8px;
+}
+.shair-item-slot img{
+	pointer-events: none;
+}
+.table-header.hover-header, .table-header {
+    background: url(https://i.imgur.com/S1a7s3l.png) !important;
+}
+.SI-button .left{
+    background:url(https://i.imgur.com/VsPbLKA.png);
+    background-position: -443px -229px;
+}
+.SI-button .label{
+    background:url(https://i.imgur.com/VsPbLKA.png);
+    background-position: -463px -229px;
+}
+.SI-button .right{
+    background:url(https://i.imgur.com/VsPbLKA.png);
+    background-position: -622px -229px;
+}
+#for-you-plug{
+    background:url(https://i.imgur.com/VsPbLKA.png) -0px -942px;
+}
+.shair-item-slot small{
+    opacity: 0.5;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color:white;
+    pointer-events: none;
+}
+html:before{
+    content:"";
+    display: none;
+    background-image:url(https://i.imgur.com/D6vcVUa.jpg);
+    background-position:center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:fixed;
+    z-index:-10;
+}
+ .tworcy-icon, .uninstall-icon, .frozen-icon{
+     width: 119px;
+     height: 23px;
+     display: inline-block;
+}
+ .tworcy-icon:hover, .uninstall-icon, .frozen-icon:hover{
+     background-position-y: -23px;
+}
+ .uninstall-icon{
+     background: url(https://i.imgur.com/2d6p7fR.png);
+}
+ .tworcy-icon{
+     background:url(https://i.imgur.com/RLW6H3N.png);
+}
+ .progressInfo, #_t1{
+     font-family: Lato;
+}
+ .border-l{
+     width: 7px;
+     height: 100%;
+}
+ #chat.left {
+     width: 270px;
+}
+.changeClient{
+    background-image: url(https://i.imgur.com/cNJsl0a.png);
+    width: 93px;
+}
+ #tip, #tip.t_item, #tip.t_npc, #tip.t_other{
+        background: rgba(0, 0, 0, .9);
+	border: 1px solid #597018;
+	border-color: red;
+	font: 11px Lato, sans-serif;
+        border-radius: 10px;
+	box-shadow: 0 0 30px black;
+}
+ #right-icons {
+     display: none;
+     position: absolute;
+     margin-top: -5px;
+     padding-top: 5px;
+     width: 48px;
+     height: 538px;
+     right: -37px;
+     background: #000000ad;
+     border: 1px solid red;
+     border-left: none;
+     border-top-right-radius: 1em;
+     border-bottom-right-radius: 1em;
+}
+ #right-icons a{
+     width: 33px;
+     height: 33px;
+     margin: 7px;
+     margin-left: 10px;
+     display: block;
+     background-position: center center;
+     background-repeat: no-repeat;
+}
+#rightStats .dmg{
+    color: #bbb;
+}
+#rightStats .dmgp{
+    color: lime;
+}
+#rightStats .dmgc{
+    color: #9BF;
+}
+#rightStats .dmgo{
+    color: #ec940f;
+}
+.dmgd{
+    color: #bbb;
+}
+ #pk_list_container .list {
+     color: #f7d20f;
+}
+ #pk_list_info{
+     color: #b3900c;
+}
+ #pk_filter{
+     color: gold;
+     background: #ffd7002e;
+     border: 1px solid gold;
+}
+ #pk_mini .el .loc {
+     color: #b3900c;
+}
+ #pk_mini{
+     border: 3px double black;
+     border-top: 0px;
+     background: #000000c4;
+     color: #cb0604;
+}
+ #pk_list_container .list div.name span.ctrl{
+     background: none;
+     color: #61e014;
+}
+ #pk_list_container .list div.name span.ctrl.r{
+     background: none;
+     color: #d84747;
+}
+ #newlvl{
+     background-image: url(https://i.imgur.com/rRy5clG.gif);
+     box-shadow: 0 0 5px 3px black;
+}
+ #autobattleButton, #surrenderBattleButton{
+     background: #230a04;
+     color: #c52213;
+     border: 1px outset red;
+}
+ #hmenu{
+     border: 4px double black;
+}
+ #hmenu BUTTON:hover {
+     background: #000000;
+}
+ #hmenu BUTTON {
+     background: #151617d6;
+     border-bottom: 1px double black;
+     color: white;
+     text-shadow: 0px 0px 8px #640000, 0px 0px 8px #640000, 0px 0px 8px #640000;
+}
+ #pk_list {
+     background-image: url(https://i.imgur.com/rrfz4dO.png);
+     font: 12px "Lato", sans-serif;
+     color: gold;
+}
+ #shop.outfit {
+     background-image: url(https://i.imgur.com/x9G57PR.png);
+}
+ #premiumshop .buymore_ps, #premiumshop .closebutton_ps, #premiumshop, #premiumshop .premiumItem, #premiumshop .item_bg, #premiumshop .promocode_button{
+     background-image: url(https://i.imgur.com/dyaYKS9.png);
+}
+ #alert div.mAlertInputContainer input[name="mAlertInput"], #alert div.mAlertInputContainer .bRight, #alert div.mAlertInputContainer .bLeft{
+     background-image: url(https://i.imgur.com/WEWpzXx.png);
+     color: red;
+}
+ .ab5{
+     background-image: url(https://i.imgur.com/gZM2eiE.png);
+}
+ .ab1{
+     background-image: url(https://i.imgur.com/O5vMI4n.png);
+}
+ #battletimer{
+     font: 11px "Lato", sans-serif;
+     color: gold;
+}
+ #battlepanelback, #battlehelp, #battleclose, #battle .border-b{
+     background-image: url(https://i.imgur.com/t6fK2Zl.png) !important;
+     background-color: transparent;
+}
+ #tradebg, #trade BUTTON{
+     background-image: url(https://i.imgur.com/Q66mUcT.png);
+     background-color: transparent;
+}
+#loots {
+    border-image: url(https://i.imgur.com/WJ0OlHT.png) 41 32 17 49 fill round;
+}
+#loots TD{
+    border: 1px solid red;
+}
+ #loots_l, #loots_r, #loots .loot, #loots B.yes, #loots B.no, #loots_counter, #loots_button, #loots B.need{
+     background-image: url(https://i.imgur.com/rJhshNv.png);
+     background-color: transparent;
+}
+ #loot-preview{
+     background-image: url(https://i.imgur.com/WFdmvxC.png);
+     color: red;
+}
+ #match-details-wnd .match-details-title{
+     background-image: url(https://i.imgur.com/w7kYRNp.png);
+}
+ #inbox .mailnick{
+     background-image: url(https://i.imgur.com/M93tDq1.png);
+}
+ #inbox .onemail .fraudInfo{
+     color: #ff0000;
+     background-color: transparent;
+}
+ #newmail TABLE TD{
+     color: red;
+}
+ #inbox .mhead, hv, #inbox a, #inbox .mailnick.special{
+     color: #CC9900;
+}
+ .onemail hr {
+     display: none;
+}
+ #inbox .onemail{
+     border-top: 3px double red;
+}
+ #shop_close, #shop_accept, #match-details-wnd .close-match-details-wrapper .close-match-details{
+     background-image: url(https://i.imgur.com/52dUPmM.png);
+}
+ #inbox .mhead, hv {
+     border-bottom: none;
+}
+ #quest-log-window {
+     background-image: url(https://i.imgur.com/mGdm4jv.png);
+ }
+ .questlist p {
+     color: red;
+ }
+ #mailmsg, #inbox INPUT, .mailitem{
+     background-color: #250101;
+     font: 12px "Lato", sans-serif;
+     color: red;
+     border: 1px solid red;
+     background: #250101;
+}
+ #inbox, #inbox .onemail{
+     background-image: url(https://i.imgur.com/lXCRHki.png) !important;
+     color: red;
+}
+#clanbox .clan-skills-content .scroll-wrapper .scroll-pane .one-clan-skill{
+     background: rgba(91, 84, 84, 0.31);
+}
+ #inbox .newmsgout{
+     background-image: url(https://i.imgur.com/qbJhvXF.png);
+}
+ #auctions .even TD{
+     background-color: #250101;
+     font: 12px "Lato", sans-serif;
+}
+ #mails{
+     background-image: url(https://i.imgur.com/0CIgXlL.png);
+}
+ #inbox BUTTON{
+     background-image: url(https://i.imgur.com/v6zHrpb.png) !important;
+}
+ #auctions .ahitem, #ah_filter, #auctions .redback, #auctions TH, #auctions TD{
+     background-color: #250101;
+     font: 12px "Lato", sans-serif;
+     color: red;
+     background: #250101;
+}
+ #auctions .even TD{
+     background-color: #250101;
+     font: 12px "Lato", sans-serif;
+}
+ #auctions TD.unique{
+     color: gold;
+     font: 12px "Lato", sans-serif;
+}
+ #auctions TD INPUT{
+     background: #520000 !important;
+     color: red !important;
+}
+ #auctions{
+     background-image: url(https://i.imgur.com/Wwez0PF.png);
+}
+ #auctions button, #ahtitle, #ahselect, #ah_mylist H5, #ahselect B#b_myah, #auctions .itemcont, #auctions #ah_filter BUTTON{
+     background-image: url(https://i.imgur.com/ekazmW1.png) !important;
+}
+ #loot-preview .close-but:hover{
+     background-image: url(https://i.imgur.com/DpJ5yBm.png);
+}
+ #depo BUTTON{
+     background-image: url(https://i.imgur.com/XzrQsZX.png);
+}
+ #depo, #depo-title{
+     background-image: url(https://i.imgur.com/rraN8p1.png);
+}
+#depo-sections .d-section.active{
+     background-color: #500000;
+}
+#depo-sections .d-section{
+     background: #500000;
+     border: 1px solid red;
+}
+#depo-sections .d-movebar{
+     background-color: #500000;
+     border: 1px solid red;
+     color: gold;
+}
+ #depo-sections .depoUpgrade{
+     background-color: #500000;
+     border: 1px solid red;
+}
+ #strength-increase, #dexternity-increase, #intelect-increase{
+     color: red;
+     font: 14px "Lato", sans-serif;
+}
+ #abpoints{
+     color: gold;
+     font: 13px "Lato", sans-serif;
+}
+ #abilitypoints{
+     background-image: url(https://i.imgur.com/j7lMmHV.png);
+}
+ #matchmaking-summary .header-text{
+     color: red;
+     left: 10px;
+     top: 10px;
+}
+ .MM-dialog-average{
+     color: gold;
+     font: 12px "Lato", sans-serif;
+}
+ .MM-dialog-header-txt {
+     background-position-y: -101px;
+}
+ .MM-tab-button.MM-tab-button-menu.active .content .gfont {
+     text-shadow: 0px 1px 7px #640000;
+}
+ .MM-fight-header {
+     width: 48px;
+}
+ .MM-paginator .inptxt {
+     background: #250101;
+     color: #434343;
+     border: none;
+}
+ .txt-info, .your-season-record, .your-career-record, .players-in-ranking-info, .season-reward-header, .season-winners-header, .matchmaking-progress-stage .points-side .ratio , .tokens-amount-1{
+     color: gold;
+}
+ .MM-rank-header {
+     width: 62px;
+}
+ .MM-stat-header {
+     width: 50px;
+}
+ .MM-table-col {
+     border: 1px solid #353e32;
+}
+ .MM-table-container{
+     color: red;
+}
+ .MM-dialog .gfont{
+     color: red;
+}
+ .MM-dialog .gfont:before{
+     color: red;
+}
+ .MM-dialog .gfont:after{
+     color: red;
+}
+ .progress-wnd .left-side .char-info{
+     color: red;
+}
+ .progress-wnd .left-side .char-prof{
+     color: gold;
+}
+ .MM-dialog-header{
+     background-image: url(https://i.imgur.com/5XpqOqH.png);
+}
+ .MM-dialog-header-txt, .MM-big-button-header{
+     background-image: url(https://i.imgur.com/VsPbLKA.png);
+}
+ .MM-dialog{
+     -moz-border-image: url(https://i.imgur.com/rWdHbji.png) 51 64 24 57 repeat;
+     -webkit-border-image: url(https://i.imgur.com/rWdHbji.png) 51 64 24 57 repeat;
+     -o-border-image: url(https://i.imgur.com/rWdHbji.png) 51 64 24 57 repeat;
+     border-image: url(https://i.imgur.com/rWdHbji.png) 51 64 24 57 fill repeat;
+}
+ #hieronim_button{
+     background: url(https://i.imgur.com/AJhxi7I.png) 0px -94px;
+}
+ #sl_shop_banner{
+     background: url(https://i.imgur.com/AJhxi7I.png);	 
+}
+ #gold_shop_banner{
+     background: url(https://i.imgur.com/AJhxi7I.png) 0px -54px;
+}
+ #lehim_button{
+     background: url(https://i.imgur.com/AJhxi7I.png) 0px -127px;
+}
+ #shop{
+     background-image: url(https://i.imgur.com/FvoJJxS.png);
+}
+ #dialog{
+     background-image: url(https://i.imgur.com/XyZAMhs.png);
+}
+ #party{
+     background: transparent url(https://i.imgur.com/kAhSn2q.png) !important;
+     border-bottom-left-radius: 5px;
+}
+ .party_member, #party B{
+     font: 12px "Lato", sans-serif;
+     color: red;
+}
+ #party>p>div:last-of-type{
+     color: white !important;
+}
+ #party B.pcen{
+     font: 12px "Lato", sans-serif;
+     color: #ffd700;
+     font-weight: 1000;
+}
+ #console{
+     background: rgba(63,0,0,.8);
+}
+ #conin{
+     background: rgba(0,0,0,.9);
+}
+ DIV.frparty, .chatfr, .delfr, #enadd, #fradd, #frsort, .delen, .frup, .frdn{
+     background-color: transparent;
+     background-image: url(https://i.imgur.com/Zeu9ADi.png);
+}
+ #match-details-wnd{
+     background-image: url(https://i.imgur.com/0BkBTZf.png);
+}
+ .MM-big-button.MM-stat-button, .MM-dialog-space .warning-points, .MM-button .content, .MM-button .left, .MM-button .right, .MM-big-button.MM-fight-button, .MM-big-button.MM-rank-button, .MM-queue-button, .MM-big-button MM-eq-button, .MM-eq-button, .MM-eq-button.selected{
+     background-image: url(https://i.imgur.com/VsPbLKA.png);
+}
+ #pre-premium-panel, #chests-window, #matchmaking-summary{
+     background-image: url(https://i.imgur.com/VsPbLKA.png);
+}
+ .extraStat-group-title{
+     font: 14px "Lato", sans-serif;
+     color: #c5a470;
+     border-bottom: 1px solid #927f7f;
+}
+ .extraStat-group{
+     margin-left: 12px;
+     color: #cccccc;
+     padding: 5px 0px;
+     font: 12px "Lato", sans-serif;
+}
+ .extraStat-row{
+     padding: 1px 3px;
+     display: block;
+     clear: both;
+     font: 12px "Lato", sans-serif;
+     width: 140px;
+}
+ .extraStat-value{
+     float: right;
+     font: 12px "Lato", sans-serif;
+}
+ .extraStat-row:hover{
+     background: rgba(0, 0, 0, 0.3);
+}
+ .extraStat-special-odpornosci{
+     font: 12px "Lato", sans-serif;
+}
+ .extraStat-special-odpornosci .extraStat-name {
+     margin-left: 10px;
+}
+ [data-percent]:after{
+     content: "%";
+}
+ [data-plus]:before{
+     content: "+";
+}
+ #rightStats{
+     font: 10px Arial, Verdana;
+     color: #ffd700;
+     text-align: right;
+     position: absolute;
+     top: 126px;
+     left: 152px;
+     width: 100px;
+     height: 40px;
+     line-height: 14px;
+}
+ .rightStatBut{
+     background-image: url(https://i.imgur.com/oGqPMAl.png);
+     position:absolute;
+     left: 144px;
+     top: 177px;
+     width: 115px;
+     height: 21px;
+}
+  #mystats{
+     overflow-y: scroll;
+     right:86px;
+     position:absolute;
+     z-index:299;
+     width:180px;
+     height:512px;
+     background: #000000e0;
+     background: linear-gradient(to right, #000000e0, #420000);
+     transition: transform 700ms ease-in-out;
+     box-shadow: -3px 0px 5px 1px rgba(0, 0, 0, 0.6);
+}
+ #mystats.active{
+    transform: translateX(-190px);
+}
+ [data-update="credits"]{
+     position:absolute;
+     z-index:351;
+     top:45px;
+     right:50px;
+     width: 30px;
+     height: 11px;
+     font: 11px Arial, Verdana;
+     color: #ffd700;
+     text-align: right;
+}
+.shairVersions div{
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    margin: 3px;
+}
+.shairVersions div.active {
+    box-shadow: 0px 0px 8px 1px red;
+}
+ .expAnimation{
+     position: absolute;
+     width: 8px;
+     height: 8px;
+     border-radius: 100%;
+     background:url(https://i.imgur.com/fdpSxBM.png);
+     z-index: 400;
+     -webkit-transition: all 1000ms ease-in-out;
+     -moz-transition: all 1000ms ease-in-out;
+     -ms-transition: all 1000ms ease-in-out;
+     -o-transition: all 1000ms ease-in-out;
+     transition: all 1000ms ease-in-out;
+     pointer-events: none;
+}
+ @-webkit-keyframes flash{
+     0% {
+         box-shadow: inset 0 0 5px 6px #a00000;
+    }
+     25% {
+         box-shadow: inset 0 0 5px 6px #8c0000;
+    }
+     50% {
+         box-shadow: inset 0 0 5px 6px #700000;
+    }
+     75% {
+         box-shadow: inset 0 0 5px 6px #590000;
+    }
+     100% {
+         box-shadow: inset 0 0 5px 6px #300000;
+    }
+}
+ @keyframes flash{
+     0% {
+         box-shadow: inset 0 0 5px 6px #a00000;
+    }
+     25% {
+         box-shadow: inset 0 0 5px 6px #8c0000;
+    }
+     50% {
+         box-shadow: inset 0 0 5px 6px #700000;
+    }
+     75% {
+         box-shadow: inset 0 0 5px 6px #590000;
+    }
+     100% {
+         box-shadow: inset 0 0 5px 6px #300000;
+    }
+}
+ .sepia {
+     border: 1px solid gold;
+     border-radius: 5px;
+     display: inline-table;
+     margin: 2px;
+     box-shadow: inset 0 0 5px 6px #8c0000;
+     -webkit-animation: 2s flash infinite alternate;
+     animation: 2s flash infinite alternate;
+}
+ .sepia img {
+     -webkit-filter: sepia(1) brightness(102%) contrast(150%);
+     filter: sepia(1) brightness(102%) contrast(150%);
+}
+ #buttons{
+     left:145px;
+     top:205px;
+}
+ #buttons DIV{
+     background-image:url(https://i.imgur.com/hN4pIDP.png) !important;
+}
+ DIV#b_news{
+     left:234px;
+     top:5px;
+}
+ DIV#b_addons{
+     left:237px;
+     top:230px;
+     background-image:url(https://i.imgur.com/hN4pIDP.png);
+}
+ DIV#bchat{
+     background-image:url(https://i.imgur.com/hN4pIDP.png);
+     left:2px;
+     top:520px;
+}
+ #premiumbut{
+     left:541px;
+     top:515px;
+     background-image:url(https://i.imgur.com/LGOl9re.png);
+     background-position: 0 0!important;
+}
+ #logoutbut{
+     left:693px;
+     top:515px;
+     background-image:url(https://i.imgur.com/Pz909Ay.png);
+     background-position: 0 0!important;
+}
+ .MM-battleset-switch{
+     top:90px;
+}
+ .MM-battleset-switch-button {
+     background-image:url(https://i.imgur.com/nfQkV2f.png);
+}
+ .a1{
+     background-image: url(https://i.imgur.com/gowVAbO.png) !important;
+}
+ .a3 {
+     background-image: url(https://i.imgur.com/gowVAbO.png) !important;
+}
+ .a3 *{
+     background-image: url(https://i.imgur.com/gowVAbO.png) !important;
+}
+ #MM-in-queue-icon {
+     top: -2px;
+     right: 270px;
+}
+ #bm_advent{
+     background-image: url(https://i.imgur.com/KwqrrUw.png);
+     top:214px;
+     left:84px;
+}
+/* CSS ZMIANA GRAFIK(POZOSTAŁE) */
+ #recipes {
+     background-image: url(https://i.imgur.com/uRhfI3A.png);
+     color: red !important;
+}
+#recipes .receipe-list .recipe-group .card-graphic{
+     border-image: url(https://i.imgur.com/JX4NjVu.png) 5 17 fill repeat stretch;
+}
+ #addonspanel{
+     background-image: url(https://i.imgur.com/bg4itpk.png);
+}
+#addons .author a{
+     color: red;
+}
+#addonDetails textarea{
+     border: 1px red solid;
+     background-color: rgba(0,0,0,0.5);
+}
+#addons .menu_element:hover, #addons .menu_element.active{
+     background-color: rgba(0,0,0,0.4);
+}
+#addon_search_div input{
+     background-color: #500000;
+     border: 1px solid red;
+}
+#addons .image{
+     background: rgba(0,0,0,0.4) 50% 50% no-repeat;
+}
+ DIV#pvpmode, #pvpmode{
+     background-image: url(https://i.imgur.com/8SaDUeQ.png);
+     top:518px;
+     left:475px;
+     z-index:301;
+     width: 17px;
+     height: 17px;
+     background-position: 0px -57px;
+}
+ #clanmenu{
+     background-image: url(https://i.imgur.com/43ZZn8F.png);
+}
+#shop_recover_items, #create_new_clan, #create_new_clan:hover {
+     background-image: url(https://i.imgur.com/Q6ApTCN.png);
+}
+ #mappanel{
+     background-image: url(https://i.imgur.com/99KacPR.png);
+}
+ #friends{
+     background-image: url(https://i.imgur.com/s0pPV78.png);
+}
+ #config{
+     background-image: url(https://i.imgur.com/VZHtSp1.png) !important;
+     background-repeat: repeat;
+}
+ #config center:last-child {
+     background-image: url(https://i.imgur.com/VZHtSp1.png) !important;
+     background-position: bottom;
+}
+ #panel{
+     background-image: url(https://i.imgur.com/Rfv7Nnz.png);
+}
+ .conf-title{
+     background-image: url(https://i.imgur.com/Xl8ayDn.png) !important;
+}
+ #skills, #skills_title{
+     background-image: url(https://i.imgur.com/tChwPNA.png);
+}
+ .skills_tab_header{
+     background-image: url(https://i.imgur.com/Yd1jg3E.png);
+}
+ #inpchat{
+     background-image:url(https://i.imgur.com/1qDHmlO.png);
+}
+ .item SMALL{
+     font-size:12px;
+}
+ .questlist p{
+     background-image: url(https://i.imgur.com/rtGCcF0.png);
+     font: 15px "Lato", sans-serif;
+     font-weight: 700;
+}
+ #clanbox .members TH{
+     background-image: url(https://i.imgur.com/kHEb1SN.png);
+}
+ #bottombar{
+     background-image: url(https://i.imgur.com/1qDHmlO.png);
+}
+ #dlgwin .w2{
+     background-image: url(https://i.imgur.com/nGjwiCP.png) !important;
+}
+ .w2{
+     color: red;
+     background-image: url(https://i.imgur.com/nGjwiCP.png) !important;
+}
+ #alert, #dlgwin, #staminashop, .MM-alert{
+     background-image: url(https://i.imgur.com/93Gk3l5.png) !important;
+}
+ #alert .a1, #alert .a3, #alert button, #dlgwin .w1, #staminashop .a1, #staminashop .a3{
+     background-image: url(https://i.imgur.com/0hzgEru.png) !important;
+}
+ #chat, #chattabs, #chattabs s{
+     background-image:url(https://i.imgur.com/67CY798.png);
+}
+ #chat.left, #chattabs.left, #chat.left #chattabs s{
+     background-image: url(https://i.imgur.com/62VY86t.png);
+}
+ #cfg_options DIV, .my-checkbox, .my-checkbox.active{
+     color: red;
+     font: 13px "Lato", sans-serif;
+     background-image: url(https://i.imgur.com/YfPtseg.png);
+}
+ #pre-premium-panel .close-pre-premium, #recipes .close-but, #chests-window .close-chests-window, #loot-preview .close-but{
+     background-image: url(https://i.imgur.com/hxReBnz.png);
+}
+ .closebut, .close-but, #quest-log-window .quest-log-close-but{
+     background-image: url(https://i.imgur.com/hxReBnz.png);
+     margin: 4px;
+}
+ #config .save{
+     background-image: url(https://i.imgur.com/Pc7uM0c.png);
+}
+ #config .cancel{
+     background-image: url(https://i.imgur.com/dHVwMfA.png);
+}
+ #clanbox, #inmap, #inmap2wrapper, #addons{
+     background: url(https://i.imgur.com/Jg6Idwy.png);
+}
+table>tbody>tr.hover:hover {
+     background: #640000;
+}
+#clanFilter{
+     color: red;
+}
+#clanFilter .clan-list-find-panel{
+     background-image: url(https://i.imgur.com/JymEPqk.png);
+}
+.one-clan-atribute .input-wrapper select, .one-clan-atribute .input-wrapper input{
+     border: 1px red solid;
+     color: red;
+     background-color: rgba(0, 0, 0, .5);
+}
+.one-clan-atribute .input-wrapper select, .one-clan-atribute .input-wrapper input option{
+     border: 1px red solid;
+     background-color: black;
+}
+.b_buttons{
+     background-image: url(https://i.imgur.com/o7QwpXl.png);
+}
+.b_buttons:hover{
+     filter: brightness(150%);
+}
+DIV#b_news.notif{
+     background-image: url(https://i.imgur.com/37JJjMm.gif);
+}
+DIV#b_news.notif:hover{
+     background-image: url(https://i.imgur.com/37JJjMm.gif);
+     filter: brightness(150%);
+}
+ #lagmeter{
+     background-image:url(https://i.imgur.com/InYnAMm.png);
+}
+ .skillbox{
+     background-image:url(https://i.imgur.com/qJLodqs.png);
+}
+
+#new_event_calendar{
+     display: none !important;
+}
+/* CSS ZMIANY PO?O?ENIA, STYLI ETC. */
+ .q_kill{
+     font: 13px "Lato", sans-serif;
+     color: #CC0033;
+}
+ .q_doit{
+     color: #ffd700;
+     font: 13px "Lato", sans-serif;
+}
+ #inpchat, #bottxt{
+     left:65px;
+     top:9px;
+}
+ #exp2.noexp{
+     background-image: url(https://i.imgur.com/IbBwTI3.png) !important;
+}
+ #exp1, #life1{
+     font-size: 10px;
+     text-align: center;
+     color: transparent;
+     font-weight: bold;
+}
+ #exp1,#exp2{
+     top:102px;
+     left:663px;
+}
+ #life2, #exp2{
+     border-bottom-right-radius: 100%;
+     border-top-left-radius: 100%;
+}
+ #exp2{
+     background-image:url(https://i.imgur.com/KMrHjMn.png) !important;
+}
+ #life1,#life2{
+     top:91px;
+     left:663px;
+}
+ #life2{
+     background-image:url(https://i.imgur.com/ERM2hdU.png) !important;
+}
+ #bagc{
+     left:25px;
+     top:261px;
+}
+ #gold{
+     top:45px;
+     left:520px;
+     font: 11px Arial;
+}
+ .treasury > div:first-of-type{
+     background-color: #250101 !important;
+}
+ #clanbox BUTTON{
+     font: 10px "Lato", sans-serif;
+     color:red;
+}
+ #clanbox{
+     font: 11px "Lato", sans-serif;
+     color:red;
+}
+ #clanbox span.nick{
+     font: 13px "Lato", sans-serif;
+     color:red;
+}
+ .clan TD{
+     font: 14px "Lato", sans-serif;
+     color:red;
+}
+ #botloc{
+     top:519px;
+}
+ #skillSwitch{
+     top:112px;
+     left:92px;
+     background-image: url(https://i.imgur.com/u71U1hG.png) !important;
+}
+ #nick{
+     color: white;
+     text-shadow: 0px 0px 8px #640000, 0px 0px 8px #640000, 0px 0px 8px #640000;
+     font-family:"Lato",sans-serif;
+}
+ .a2 {
+     color: red;
+     font: 14px "Lato", sans-serif;
+}
+ #skillcount {
+     color: red;
+     font: 16px "Lato", sans-serif;
+     top: 9px;
+     left: 310px;
+}
+ .skills_tab_text {
+     color: red;
+     font: 12px "Lato", sans-serif;
+}
+ .skillbox_lvl{
+     color: #ffd700;
+     font: 10px "Lato", sans-serif;
+}
+ #clanbox .clanlist B{
+     color: red;
+     font: 14px "Lato", sans-serif;
+     font-weight: 700;
+}
+ .avatar{
+     display:none;
+     position:absolute;
+     top:-2px;
+     left:16px;
+     width:32px;
+     height:32px;
+     z-index:350;
+     opacity: 0.8;
+}
+ #surrenderBattleButton{
+     left: 15px !important;
+}
+ #chattxt{
+     font-family:"Lato",sans-serif;
+}
+ .tipInnerContainer{
+     font-family:"Lato",sans-serif;
+}
+ #battle{
+     font-family:"Lato",sans-serif;
+}
+.news-panel{
+	background: url(https://i.imgur.com/8L1KJs6.png);
+}
+ #buttons DIV:hover, #logoutbut:hover, #premiumbut:hover, .hightlight:hover{
+     filter: brightness(150%);
+     -webkit-filter: brightness(150%);
+}
+ textarea#battle_for_forum{
+     background-color: #420000;
+     color: red;
+     border-color: rgb(16, 20, 28);
+}
+ #addonDetails{
+     background-color: #2b0101;
+}
+.extMgrLinksList div a {
+     background-color: rgba(0,0,0,0.4);
+}
+ #addons h1{
+     color: red;
+     font: 20px "Lato", sans-serif;
+     font-weight: 700;
+}
+ #addons *, .search, #recipes .start-lvl, #recipes .stop-lvl{
+     color: red;
+     font: 14px "Lato", sans-serif;
+}
+.search, #recipes .start-lvl, #recipes .stop-lvl{
+     border: 1px solid #830808;
+}
+#recipes .start-lvl{
+     left: 27px !important;
+}
+#recipes .recipe-list-search{
+     top: 90px !important;
+}
+#recipes .recipe-list-search .search{
+     border: 1px solid #830808 !important;
+     width: 84px !important;
+}
+#recipes .recipe-list-search .search::placeholder,  #recipes .start-lvl::placeholder, #recipes .stop-lvl::placeholder{
+     color: red;
+}
+#recipes .choose-item-type, #recipes .choose-prof {
+     color: red;
+     border: 1px solid #830808;
+}
+#recipes .choose-prof{
+     top: 90px !important;
+}
+#recipes .choose-item-type{
+     top: 68px !important;
+}
+ #recipes .recipe-header{
+     border-bottom: 0px;
+}
+.recipe-reagent .reagent-wrapper .item-reagent-wrapper .item-reagent .item, .recipe-reagent .reagent-wrapper .item-reagent-wrapper .item-reagent .item img{
+     position: relative !important;
+}
+#tip-o1, #tip-o2, DIV#b_matchmaking, #dlgtitle, #tutorial,#leorn1,#leorn2,#b_help,#stats,#base3,.lt-hor,.lt-ver,.ld-hor,.ld-ver,.rt-hor,.rt-ver,.rd-hor,.rd-ver, #b_config{
+     display:none !important;
+}
+ * {
+     cursor: url(https://i.imgur.com/ziuWzSg.png), auto;
+}
+.shairVersions div.active, .shairVersions div, .bal_cancel, #myfrscrollbar, #myenscrollbar, .otchlannew, .dodatkionpub, .dodatkion, .tworcy-icon, #loot-preview .close-but, .MM-queue-button, .uninstall-icon, .checkbox-gd, .header-wrapper .close-button, .header .close-button, #addons .description *, .menu_element, .bal_yes, .bal_no, .MM-button *, .close-chests-window, .skillbox_icon, .skillbox_icon_holder, .skillbox, #a_ok.bal_ok, #chatscrollbar, #pre-premium-panel .tiles-wrapper .pre-premium-panel-tile, .close-pre-premium, .graph.sl-cl, .header-txt, .graph,shop-cl, .graph.chest-cl, .graph.for-you-cl, .MM-stat-button, .MM-fight-button, .MM-rank-button, .MM-stat-header, .MM-fight-header, .MM-rank-header, .closebut, .ustawienia, #chattxt .chnick, #chattxt U, #chat, #chattabs, #chattabs s, #chat.left, #chattabs.left, .rightStatBut, .MM-battleset-switch-button, #cfg_options > div, [onclick], [href], [onclick] > *{
+     cursor: url(https://i.imgur.com/xZ0AKJk.png), auto !important;
+}
+ .ustawienia{
+     position:absolute;
+     z-index:300;
+     left:617px;
+     top:515px;
+     width: 68px;
+     height: 20px;
+     background:url(https://i.imgur.com/J4agAzj.png);
+}
+ .dodatkion{
+     position:absolute;
+     left:10px;
+     top:493px;
+     width: 33px;
+     height: 33px;
+     background:url(https://i.imgur.com/Sks9R49.png);
+}
+ .dodatkionpub{
+     position:absolute;
+     left:364px;
+     top:-1px;
+     width: 33px;
+     height: 33px;
+     background:url(https://i.imgur.com/QwhMmKF.png);
+}
+ .npc.cursor-npc{
+     cursor: url(https://i.imgur.com/l1Iq1Uq.png), auto !important;
+}
+ .npc.cursor-attack{
+     cursor: url(https://i.imgur.com/xF0AbnU.png), auto !important;
+}
+ .troop[ctip="t_troop2"]{
+     cursor: url(https://i.imgur.com/xF0AbnU.png), auto !important;
+}
+ #b_pvp{
+     top: 205px;
+     left: 236px;
+     height: 22px;
+     background: url(https://i.imgur.com/nNGLnDA.png);
+     background-position-y: 0px !important;
+     background-position-x: 22px !important;
+}
+ #b_pvp:hover{
+     background-position-y: 22px !important;
+}
+ #b_pvp.active{
+     background-position-x: 0px !important;
+     filter: drop-shadow(0px 0px 4px red);  
+     -webkit-filter: drop-shadow(0px 0px 4px red);
+     -moz-filter: drop-shadow(0px 0px 4px red);
+     -o-filter: drop-shadow(0px 0px 4px red); 
+}
+#chattxt .chnick, #chattxt U {
+    text-shadow: 0px 0px 8px red, 0px 0px 8px red, 0px 0px 8px red !important;
+}
+#config_bg_filler[style]{
+    background-image: url(https://i.imgur.com/Yd7eCEe.png) !important;
+}
+#right-icons a[data-icon="0"]{
+    background-image: url(https://i.imgur.com/0qURNkc.png);
+}
+#right-icons a[data-icon="1"]{
+    background-image: url(https://i.imgur.com/usQnUmh.png);
+}
+#right-icons a[data-icon="2"]{
+    background-image: url(https://i.imgur.com/mKJjrig.png);
+}
+#right-icons a[data-icon="3"]{
+    background-image: url(https://i.imgur.com/otx0D3m.png);
+}
+#right-icons a[data-icon="4"]{
+    background-image: url(https://i.imgur.com/D8XyIDl.png);
+}
+#right-icons a[data-icon="5"]{
+    background-image: url(https://i.imgur.com/jpJpM0d.png);
+}
+#right-icons a[data-icon="6"]{
+    background-image: url(https://i.imgur.com/WkufCpr.png);
+}
+#right-icons a[data-icon="7"]{
+    background-image: url(https://i.imgur.com/4OgLo36.png);
+    border-radius: 0px 8px 0px 8px;	
+}
+//*#right-icons a[data-icon="7"]{
+    background-image: url(https://i.imgur.com/5hW8d5o.png);
+}*//
