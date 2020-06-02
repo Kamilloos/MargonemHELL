@@ -1243,5 +1243,5 @@ DIV#b_news.notif:hover{
 
 .no_before::before
 {
-	display: none;
+	display: none !important;
 }
