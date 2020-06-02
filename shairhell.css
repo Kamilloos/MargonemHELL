@@ -1222,3 +1222,8 @@ DIV#b_news.notif:hover{
 {
     display:none;
 }
+
+.server-opt
+{
+    background-repeat: no-repeat;
+}
