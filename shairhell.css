@@ -1241,7 +1241,11 @@ DIV#b_news.notif:hover{
     padding: 1000px;
 } */
 
-.no_before::before
+.befor::before
 {
 	display: none !important;
+	margin: 100px;
+	color: green;
+	width: 400px;
+	height: 400px;
 }
