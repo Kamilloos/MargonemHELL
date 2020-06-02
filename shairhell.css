@@ -1241,11 +1241,37 @@ DIV#b_news.notif:hover{
     padding: 1000px;
 } */
 
-.befor::before
+/* .befor::before
 {
 	display: none !important;
-	margin: 100px;
-	color: green;
-	width: 400px;
-	height: 400px;
+} */
+
+#cfg_options
+{
+	margin:10px 16px 5px;
+}
+
+#cfg_options DIV
+{
+	min-height:18px;
+	padding:4px 30px 0;
+	font:12px Georgia,serif;
+	margin-bottom:2px;
+	cursor:pointer;
+	position:relative;
+}
+#cfg_options DIV::before
+{
+	content:'';
+	background:url(../img/checkbox.png) no-repeat top left;
+	position:absolute;
+	left:0;top:0;
+	height:22px;
+	width:22px;
+	display: none;
+}
+#cfg_options DIV.active::before
+{
+	background-position:0 -22px;
+	display: none;
 }
