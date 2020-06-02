@@ -1249,6 +1249,7 @@ DIV#b_news.notif:hover{
 #cfg_options
 {
 	margin:10px 16px 5px;
+	background-repeat:no-repeat !important;
 }
 
 #cfg_options DIV
@@ -1259,6 +1260,7 @@ DIV#b_news.notif:hover{
 	margin-bottom:2px;
 	cursor:pointer;
 	position:relative;
+	background-repeat:no-repeat !important;
 }
 #cfg_options DIV::before
 {
@@ -1276,7 +1278,8 @@ DIV#b_news.notif:hover{
 	display: none !important;
 }
 
-.server-opt
+/* .server-opt
 {
 	background-repeat: no-repeat;
 }
+ */
