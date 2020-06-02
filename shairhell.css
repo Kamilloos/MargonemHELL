@@ -1218,7 +1218,7 @@ DIV#b_news.notif:hover{
     background-image: url(https://i.imgur.com/5hW8d5o.png);
 }*//
 
-#cfg_options DIV::before
+/* #cfg_options DIV::before
 {
     content:"" !important;
     z-index: -20;
@@ -1239,4 +1239,9 @@ DIV#b_news.notif:hover{
     background-repeat: no-repeat !important;
     display:none !important;
     padding: 1000px;
+} */
+
+.no_before::before
+{
+	display: none;
 }
