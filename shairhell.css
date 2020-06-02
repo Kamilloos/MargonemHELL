@@ -1217,3 +1217,8 @@ DIV#b_news.notif:hover{
 //*#right-icons a[data-icon="7"]{
     background-image: url(https://i.imgur.com/5hW8d5o.png);
 }*//
+
+#infoAtak::before
+{
+    display:none;
+}
