@@ -1220,10 +1220,10 @@ DIV#b_news.notif:hover{
 
 #infoAtak::before
 {
-    display:none;
+    display:none !important;
 }
 
 .server-opt
 {
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 }
