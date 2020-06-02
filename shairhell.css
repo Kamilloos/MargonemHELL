@@ -1263,15 +1263,15 @@ DIV#b_news.notif:hover{
 #cfg_options DIV::before
 {
 	content:'';
-	background:url(../img/checkbox.png) no-repeat top left;
+	background:url(https://i.imgur.com/YfPtseg.png) no-repeat top left !important;
 	position:absolute;
 	left:0;top:0;
 	height:22px;
 	width:22px;
-	display: none;
+	display: none !important;
 }
 #cfg_options DIV.active::before
 {
 	background-position:0 -22px;
-	display: none;
+	display: none !important;
 }
