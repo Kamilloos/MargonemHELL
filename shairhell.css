@@ -1218,14 +1218,15 @@ DIV#b_news.notif:hover{
     background-image: url(https://i.imgur.com/5hW8d5o.png);
 }*//
 
-#infoAtak::before
+#cfg_options DIV::before
 {
     display:none !important;
     content:"" !important;
     z-index: -20;
+    background-repeat: no-repeat !important;
 }
 
-.server-opt
+#cfg_options DIV
 {
     background-repeat: no-repeat !important;
 }
