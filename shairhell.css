@@ -1275,3 +1275,8 @@ DIV#b_news.notif:hover{
 	background-position:0 -22px;
 	display: none !important;
 }
+
+.server-opt
+{
+	background-repeat: no-repeat;
+}
