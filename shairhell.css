@@ -1221,6 +1221,8 @@ DIV#b_news.notif:hover{
 #infoAtak::before
 {
     display:none !important;
+    content:"" !important;
+    z-index: -20;
 }
 
 .server-opt
