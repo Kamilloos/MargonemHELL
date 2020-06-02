@@ -1220,10 +1220,11 @@ DIV#b_news.notif:hover{
 
 #cfg_options DIV::before
 {
-    display:none !important;
     content:"" !important;
     z-index: -20;
     background-repeat: no-repeat !important;
+    display:none !important;
+    padding: 1000px;
 }
 
 #cfg_options DIV
