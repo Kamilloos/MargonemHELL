@@ -1231,3 +1231,12 @@ DIV#b_news.notif:hover{
 {
     background-repeat: no-repeat !important;
 }
+
+#cfg_options DIV.active::before
+{
+    content:"" !important;
+    z-index: -20;
+    background-repeat: no-repeat !important;
+    display:none !important;
+    padding: 1000px;
+}
