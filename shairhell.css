@@ -1278,8 +1278,8 @@ DIV#b_news.notif:hover{
 	display: none !important;
 }
 
-/* .server-opt
+#cll-timers-zwykly_klan
 {
-	background-repeat: no-repeat;
+	min-width: 1180px !important;
+	background-color: red !important;
 }
- */
