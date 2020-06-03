@@ -1282,3 +1282,14 @@ DIV#b_news.notif:hover{
 {
 	min-width: 1180px !important;
 }
+
+.server-opt, .server-opt.active
+{
+	height: 18px !important;
+	
+}
+
+#opt14
+{
+	margin-bottom: 10px;
+}
