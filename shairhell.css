@@ -1291,5 +1291,10 @@ DIV#b_news.notif:hover{
 
 #opt14
 {
-	margin-bottom: 10px;
+	margin-bottom: 10px !important;
+}
+
+.active
+{
+	background-position: 0 -22px !important;
 }
