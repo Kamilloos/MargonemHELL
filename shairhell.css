@@ -1278,9 +1278,13 @@ DIV#b_news.notif:hover{
 	display: none !important;
 }
 
-#cll-timers-zwykly_klan
-{
-	min-width: 1180px !important;
+@media only screen and (min-width: 1450px) {
+	@media only screen and (max-width: 1550px) {
+		#cll-timers-zwykly_klan, cll-timers-nagla_druzyna
+		{
+			min-width: 1180px !important;
+		}
+	}
 }
 
 .server-opt, .server-opt.active
