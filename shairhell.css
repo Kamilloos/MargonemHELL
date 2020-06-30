@@ -1302,3 +1302,9 @@ DIV#b_news.notif:hover{
 {
 	background-position: 0 -22px !important;
 }
+
+#infoAtak
+{
+	left: 98.5px !important; 
+	top: 225px !important;
+}
